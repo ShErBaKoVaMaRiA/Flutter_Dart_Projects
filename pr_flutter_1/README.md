@@ -8,9 +8,9 @@
 Файл «welcome_screen.dart» сделать на основе шаблона «Welcome». Для реализации кнопок был реализован свой класс «Button_Widget» с указанием текста и цвета кнопки на базе ElevatedButton с округлением кнопок «BorderRadius.circular()». «const Spacer()» служит для указания интервалов между объектами. «EdgeInsets.all()» указание отступов от границ окна. Виджет «Text» используется для указания простого текста. Картинка указывалась в контейнере «Expanded» и бралась из созданных и прописанных ассетов.
 Файл «meditate_screen.dart» сделать на основе шаблона «Meditate». SafeArea создает отступы на экране устройства, для более удобного интерфейса. Для списка песен также был создан свой класс «Music_Element» с добавлением информации о названии песни в текстовое поле, информации в текстовое поле, цвета кнопки запуска. «PopupMenuButton» используется для создания меню с иконкой троеточия. «Divider» представляет собой разделитель элементов(линия). Кнопка «ElevatedButton(Play next Session)»представляет собой несколько элементов текста в строке.
 Итоговый вид форм:
-![alt text](screenshot\meditate.jpeg)
+![Meditate image](https://github.com/ShErBaKoVaMaRiA/Flutter_Dart_Projects/blob/PR_1/pr_flutter_1/assets/screenshot/meditate.jpeg)
 Рисунок 1 – Форма «Meditate»
-![alt text](screenshot\welcome.jpeg)
+![Welcome image](https://github.com/ShErBaKoVaMaRiA/Flutter_Dart_Projects/blob/PR_1/pr_flutter_1/assets/screenshot/welcome.jpeg)
 Рисунок 2 – Форма «Welcome»
 ### Вывод: в результате выполнения данной работы использовались различные виджеты, например «ElevatedButton», создавались собственные классы для более удобной работы с элементами. Было реализовано две формы на основе шаблонов в Figma с использованием перелистывания «PageView».
 
